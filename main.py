@@ -39,6 +39,10 @@ cursor.execute('SELECT * FROM pg_user LIMIT 1')
 record = cursor.fetchall()
 print("Мой запрос 2 - ", record,"\n")
 
+#SELECT temp_files AS "Temporary files"
+#     , temp_bytes AS "Size of temporary files"
+#FROM   pg_stat_database db;
+
 #query = input("Следующий запрос предлагается ввести вручную: ")
 #print("Введен запрос: ",query)
 #cursor.execute(query)
